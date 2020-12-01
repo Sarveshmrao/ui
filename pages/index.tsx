@@ -61,14 +61,14 @@ const Index: NextPage = () => {
     >
       <Omf />
       <img
-        alt={'OhMyForm'}
+        alt={process.env["SITE_NAME"]}
         style={{
           margin: 'auto',
           maxWidth: '90%',
           width: 500,
           textAlign: 'center',
         }}
-        src={require('../assets/images/logo_white.png') as string}
+        src={process.env["LOGO_URL"] as string}
       />
 
       <AuthFooter />
