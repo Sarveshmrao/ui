@@ -36,7 +36,7 @@ const App: AppType = ({ Component, pageProps }) => {
       {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment */}
       <ApolloHooksProvider client={client as any}>
         <Head>
-          <title>OhMyForm</title>
+          <title>process.env["SITE_TITLE"]</title>
           <meta name="theme-color" content={'#4182e4'} />
         </Head>
         <Component {...pageProps} />
