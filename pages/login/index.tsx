@@ -65,8 +65,8 @@ const Index: NextPage = () => {
         }}
       >
         <img
-          src={require('../../assets/images/logo_white_small.png') as string}
-          alt={'OhMyForm'}
+          src={process.env["IMAGE_URL"] as string}
+          alt={process.env["SITE_URL"]}
           style={{
             display: 'block',
             width: '70%',
