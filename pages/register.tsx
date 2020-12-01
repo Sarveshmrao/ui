@@ -73,7 +73,7 @@ const Register: NextPage = () => {
         }}
       >
         <img
-          src={require('../assets/images/logo_white_small.png') as string}
+          src={process.env["LOGO_URL"] as string}
           alt={'OhMyForm'}
           style={{
             display: 'block',
