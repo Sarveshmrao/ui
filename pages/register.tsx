@@ -74,7 +74,7 @@ const Register: NextPage = () => {
       >
         <img
           src={process.env["LOGO_URL"] as string}
-          alt={'OhMyForm'}
+          alt={process.env["SITE_URL"]}
           style={{
             display: 'block',
             width: '70%',
